@@ -17,3 +17,7 @@ public class Road {
     private int[] startLocation;
     private int[] endLocation;
     private ArrayList<Vehicle> vehiclesOnRoad = new ArrayList<>();
+    private ArrayList<TrafficLight> lightsOnRoad = new ArrayList<>();
+    private ArrayList<Road> connectedRoads = new ArrayList<>();
+
+
